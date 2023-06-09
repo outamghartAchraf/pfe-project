@@ -1,0 +1,37 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63%;
+    margin-left: 22.5%;
+    border-left: 1px solid gray;
+    
+    
+    
+}
+.container{
+    padding: 0 100px;
+   
+}
+
+.top-bar{
+    box-shadow: 1px 1px 10px 1px rgb(198, 196, 196);
+}
+.btn{
+    outline: none;
+    border: none;
+    background-color: rgb(39, 39, 220);
+    padding: 10px 20px ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0,3s;
+    font-weight: bold;
+}
+
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
